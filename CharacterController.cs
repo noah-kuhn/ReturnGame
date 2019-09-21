@@ -4,23 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CharacterController : MonoBehaviour
-{
-    /*
-     * Class for all playable characters- Ava, Clara, etc
-     */
-
-    //Movement speed
-    public float moveSpeed = 0.01f;
-	private bool canMove = true;
-
-    //Gets the Rigidbody component for movement
-    private Rigidbody2D rb2d;
-
-    public string direction;
-	
-	
-	[SerializeField] int health;
+public class CharaizeField] int health;
 	[SerializeField] int damage;
 	[SerializeField] int armor;
 
